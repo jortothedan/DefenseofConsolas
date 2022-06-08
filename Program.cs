@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace DefenseofConsolas
 {
@@ -10,6 +10,10 @@ namespace DefenseofConsolas
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Red;
 
+            Console.WriteLine("Defend the City of Consolas from the evil ship called the Manicore!");
+            Console.WriteLine("Tell the four wizards the row and column of the tile where the Manticore is shooting!");
+            Console.WriteLine("They will deploy to the adjacent blocks and place a magical barrier over it!");
+            
             Console.Write("Target Row? ");
             int row = Convert.ToInt32(Console.ReadLine());
 
